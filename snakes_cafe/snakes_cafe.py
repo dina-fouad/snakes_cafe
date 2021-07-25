@@ -37,17 +37,19 @@ ourmenu = ["Wings","Cookies","Spring Rolls","Salmon","Steak","Meat Tornado","A L
 def myfunction():
 
     order = []
-    yourorder = input(' ')
+    your = input(' ')
     
-    while yourorder != 'quit':
+    while your!= 'quit':
         
-        if yourorder in ourmenu:
-            order.append(yourorder)
-            print(f'** {order.count(yourorder)} order of {yourorder} have been added to your meal **')
+        if your in ourmenu:
+            order.append(your)
+            print(f'** {order.count(your)} order of {your} have been added to your meal **')
         else:
             print('please order one of the menu!!')
-        yourorder = input(' ')
+        your = input(' ')
 
 if __name__ == "__main__":
+
+
 
    myfunction()
