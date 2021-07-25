@@ -1,4 +1,4 @@
-from example_lab import __version__
+from snakes_cafe import __version__
 
 
 def test_version():
